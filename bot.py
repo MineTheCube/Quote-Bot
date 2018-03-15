@@ -18,7 +18,7 @@ except:
 
 quote_emote = u"\U0001F4AC"
 
-github_url = 'https://github.com/bsquidwrd/Quote-Bot'
+github_url = 'https://github.com/MineTheCube/Quote-Bot'
 
 description = """
 Hello! I am a bot written by bsquidwrd to provide easy quoting for your amusement.
@@ -33,7 +33,6 @@ log.addHandler(handler)
 initial_extensions = (
     'cogs.quote',
     'cogs.admin',
-    'cogs.meta',
 )
 
 def _prefix_callable(bot, msg):
